@@ -1,0 +1,27 @@
+.imagem-carrossel {
+    object-fit: cover;
+    height: 450px;
+}
+
+.titulo {
+    color: red;
+}
+
+.fonte-titulo {
+    font-family: 'Lobster', cursive;
+}
+
+.cor-especial {
+    font-family: 'Lobster', cursive;
+    color: green;
+    
+}
+
+.botao-cor-especial {
+    background-color: gray;
+    color: white;
+}
+
+.borda-cor-especial {
+    border-color: yellow;
+}
