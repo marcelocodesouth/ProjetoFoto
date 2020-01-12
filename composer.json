@@ -1,0 +1,13 @@
+{
+    "name": "marcelocodesouth/projeto-foto",
+    "description": "\"Projeto de website de fotografia newborn.\"",
+    "type": "project",
+    "license": "apache",
+    "authors": [
+        {
+            "name": "marcelocodesouth",
+            "email": "57600463+marcelocodesouth@users.noreply.github.com"
+        }
+    ],
+    "require": {}
+}
