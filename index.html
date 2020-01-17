@@ -11,7 +11,7 @@
     <link rel="stylesheet" type="text/css" href="src/style.css">
 </head>
 
-<body>
+<main>
 
 
     <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
@@ -30,35 +30,36 @@
                     <a class="nav-link" href="#">Quem sou?</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Vamos conversar!</a>
+                    <a class="nav-link" data-toggle="modal" data-target="#modal-contato" href="#">Vamos conversar!</a>
                 </li>
             </ul>
         </div>
     </nav>
 
+    <!--
     <div class="bd-example">
         <div id="carouselExampleCaptions" class="carousel slide" data-interval="1000" data-ride="carousel">
             <ol class="carousel-indicators">
                 <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
-                <li data-target="#carouselExampleCaptions" data-slide-to="1" ></li>
-                <li data-target="#carouselExampleCaptions" data-slide-to="2" ></li>
+                <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+                <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
             </ol>
             <div class="carousel-inner ">
-                <div class="carousel-item active imagem-carrossel">
-                    <img src="src\img\pezinho.jpg" class="d-block w-100 " alt="...">
+                <div class="carousel-item active">
+                    <img src="src\img\pezinho.jpg" class="d-block w-100 imagem-carrossel" alt="...">
                     <div class="carousel-caption d-none d-md-block h-50 ">
                         <h2 class="fonte-titulo display-4">detalhe do pezinho de bebê em registro de foto newborn</h2>
                     </div>
                 </div>
-                <div class="carousel-item active  imagem-carrossel">
-                    <img src="src\img\coloPapai.jpg" class="d-block w-100 " alt="...">
+                <div class="carousel-item active  ">
+                    <img src="src\img\coloPapai.jpg" class="d-block w-100 imagem-carrossel " alt="...">
                     <div class="carousel-caption d-none d-md-block ">
                         <h2 class="fonte-titulo display-4">detalhe de bebê em registro de foto newborn</h2>
 
                     </div>
                 </div>
-                <div class="carousel-item active  imagem-carrossel">
-                    <img src="src\img\dormindoCostas.jpg" class="d-block w-100 " alt="...">
+                <div class="carousel-item active  ">
+                    <img src="src\img\dormindoCostas.jpg" class="d-block w-100 imagem-carrossel" alt="...">
                     <div class="carousel-caption d-none d-md-block h-25 ">
                         <h2 class="fonte-titulo display-4">detalhe de bebê dormindo de costas em registro de foto newborn</h2>
                     </div>
@@ -73,37 +74,93 @@
                 <span class="sr-only">Next</span>
             </a>
         </div>
+-->
 
 
+    <article>
+        <p class="text-center text-capitalize display-4 cor-especial pt-5"> A vida é feita de momentos... <br> a fotografia existe para eterniza-los! <br> </p>
+        <h2 class="text-center text-uppercase text-secondary">Gestante | Acompanhamento | Família | Newborn </h2>
+    </article>
 
-        <div>
-            <p class= "text-center text-capitalize display-4 cor-especial pt-5"> A vida é feita de momentos... <br> a fotografia existe para eterniza-los! <br> </p>
-            <h2 class= "text-center text-uppercase text-secondary">Gestante | Acompanhamento | Família | Newborn </h2>
+    <section class="container-fluid pt-5 bg-light" id="trabalhos">
+        <div class="row justify-content-center">
+
+            <article class="card card-largura borda-cor-especiaol p-0 m-4 col-12 col-md-6">
+                <img src="src\img\boca.jpg" class="card-img-top card-posicao-imagem" alt="detalhe da boca de bebê em registro de foto newborn">
+                <div class="card-body ">
+                    <h5 class="card-title">Bebê newborn</h5>
+                    <p class="card-text">detalhe da boca de bebê em registro de foto newborn.</p>
+                    <a href="#" class="btn botao-cor-especial">Go somewhere</a>
+                </div>
+            </article>
+
+            <article class="card card-largura borda-cor-especial  p-0 m-4  col-12 col-md-6">
+                <img src="src\img\coloPapai.jpg" class="card-img-top card-posicao-imagem" alt="detalhe de bebê em registro de foto newborn">
+                <div class="card-body ">
+                    <h5 class="card-title">Bebê newborn</h5>
+                    <p class="card-text">Papai e bebê Newborn.</p>
+                    <a href="#" class="btn botao-cor-especial">Go somewhere</a>
+                </div>
+            </article>
+
+            <article class="card card-largura borda-cor-especial p-0  m-4  col-12 col-md-6">
+                <img src="src\img\dormindoCostas.jpg" class="card-img-top card-posicao-imagem" alt="detalhe de bebê dormindo de costas em registro de foto newborn">
+                <div class="card-body ">
+                    <h5 class="card-title">Bebê newborn</h5>
+                    <p class="card-text">Bebê de costas newborn.</p>
+                    <a href="#" class="btn botao-cor-especial">Go somewhere</a>
+                </div>
+            </article>
+
+            <article class="card card-largura borda-cor-especial  p-0  m-4 col-12 col-md-6">
+                <img src="src\img\pezinho.jpg" class="card-img-top card-posicao-imagem" alt="detalhe do pezinho de bebê em registro de foto newborn">
+                <div class="card-body ">
+                    <h5 class="card-title">Bebê newborn</h5>
+                    <p class="card-text">O lindo pezinho do bebê newborn.</p>
+                    <a href="#" class="btn botao-cor-especial">Go somewhere</a>
+                </div>
+            </article>
+
+            <article class="card card-largura borda-cor-especial p-0  m-4  col-12 col-md-6">
+                <img src="src\img\sapatinhos.jpg" class="card-img-top card-posicao-imagem" alt="detalhe de sapatinhos de bebê">
+                <div class="card-body ">
+                    <h5 class="card-title">Bebê newborn</h5>
+                    <p class="card-text">Os mimos e presentinhos do bebê newborn.</p>
+                    <a href="#" class="btn botao-cor-especial">Go somewhere</a>
+                </div>
+            </article>
         </div>
-       
-        <div class="card" style="width: 18rem;">
-            <img src="src\img\boca.jpg" class="card-img-top" alt="detalhe da boca de bebê em registro de foto newborn">
-            <div class="card-body borda-cor-especial">
-              <h5 class="card-title">Bebê newborn</h5>
-              <p class="card-text">detalhe da boca de bebê em registro de foto newborn.</p>
-              <a href="#" class="btn botao-cor-especial">Go somewhere</a>
+    </section>
+
+
+
+
+</main>
+
+
+<!-- Modal -->
+<div class="modal fade" id="modal-contato" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
             </div>
-          </div>
+            <div class="modal-body">
+                ...
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary">Save changes</button>
+            </div>
+        </div>
+    </div>
+</div>
 
-
-
-        <img src="src\img\coloPapai.jpg " alt="detalhe de bebê em registro de foto newborn ">
-        <h3>Papai e bebê Newborn</h3>
-
-        <img src="src\img\dormindoCostas.jpg " alt="detalhe de bebê dormindo de costas em registro de foto newborn ">
-        <h3>Bebê de costas newborn</h3>
-
-        <img src="src\img\pezinho.jpg " alt="detalhe do pezinho de bebê em registro de foto newborn ">
-        <h3>O lindo pezinho do bebê newborn</h3>
-
-        <img src="src\img\sapatinhos.jpg " alt="detalhe de sapatinhos de bebê ">
-        <h3>Sapatinhos de bebê newborn</h3>
-
-</body>
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 
 </html>

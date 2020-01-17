@@ -1,6 +1,6 @@
 .imagem-carrossel {
     object-fit: cover;
-    height: 450px;
+    height: 400px;
 }
 
 .titulo {
@@ -14,7 +14,6 @@
 .cor-especial {
     font-family: 'Lobster', cursive;
     color: green;
-    
 }
 
 .botao-cor-especial {
@@ -24,4 +23,13 @@
 
 .borda-cor-especial {
     border-color: yellow;
+}
+
+.card-largura {
+    max-width: 24rem;
+}
+
+.card-posicao-imagem {
+    object-fit: cover;
+    height: 500px;
 }
