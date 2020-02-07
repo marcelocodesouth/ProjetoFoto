@@ -8,29 +8,38 @@
     <title>Document</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Lobster&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Satisfy&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" type="text/css" href="src/style.css">
 </head>
 
 <main>
 
+    <article>
+        <H1 class="fonte-titulo"> Priscila de Angelo</p>
+            <h2 class="text-uppercase fonte-titulo2">FOTOGRAFIA </h2>
+    </article>
 
-    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
-        <a class="navbar-brand" href="#">@foto.PrisciladeAngelo</a>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light margin-top-150">
 
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
 
-        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <div class="collapse navbar-collapse display-4 justify-content-center" id="navbarNav">
             <ul class="navbar-nav">
                 <li class="nav-item active">
-                    <a class="nav-link" href="#">Início <span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="#">HOME  |<span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Quem sou?</a>
+                    <a class="nav-link" href="#">  A FOTÓGRAFA </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" data-toggle="modal" data-target="#modal-contato" href="#">Vamos conversar!</a>
+                    <a class="nav-link" href="#"> |  PORTIFÓLIO  | </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" data-toggle="modal" data-target="#modal-contato" href="#">VAMOS CONVERSAR?</a>
                 </li>
             </ul>
         </div>
@@ -78,8 +87,7 @@
 
 
     <article>
-        <p class="text-center text-capitalize display-4 cor-especial pt-5"> A vida é feita de momentos... <br> a fotografia existe para eterniza-los! <br> </p>
-        <h2 class="text-center text-uppercase text-secondary">Gestante | Acompanhamento | Família | Newborn </h2>
+        <p class="text-right fonte-titulo3 pt-5">A vida é feita de momentos e a fotografia existe para eternizá-los <br> </p>
     </article>
 
     <section class="container-fluid pt-5 bg-light" id="trabalhos">
@@ -146,30 +154,48 @@
 
 <!-- Modal -->
 <div class="modal fade" id="modal-contato" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm">
+                One of three columns
+            </div>
+            <div class="col-sm">
+                One of three columns
+            </div>
+        </div>
+    </div>
+
     <div class="modal-dialog" role="document">
         <div class="modal-content">
             <div class="modal-header">
-                <h5 class="modal-title" id="exampleModalLabel">Me conte um pouco mais!</h5>
+                <h5 class="modal-title fonte-titulo3" id="exampleModalLabel">Olá! Vamos conversar?</h5>
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                 <span aria-hidden="true">&times;</span>
             </button>
             </div>
+            <p>
+                Muito obrigada pela visita!<br>Para agendamento, orçamento ou dúvidas, por gentileza, <br>preencha os campos abaixo que responderemos em breve.
+            </p>
+
+
             <div class="modal-body">
                 <form>
                     <div class="form-group">
-                        <label for="exampleFormControlInput1">E-mail</label>
-                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="nome@exemplo.com">
 
-                        <label for="exampleFormControlTextarea1">Telefone</label>
-                        <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="XX-XXXX-XXXX" rows="1"></textarea>
+                        <input type="Name" class="form-control" id="exampleFormControlInput1" placeholder="Nome">
+                        <br></br>
 
-                        <label for="exampleFormControlTextarea1">Sobre o que vamos falar?</label>
-                        <textarea class="form-control" id="exampleFormControlTextarea2" rows="2"></textarea>
+                        <input type="email" class="form-control " id="exampleFormControlInput2" placeholder="E-mail">
+                        <br></br>
+
+                        <input type="phone" class="form-control " id="exampleFormControlTextarea3" placeholder="Telefone" rows="1"></textarea>
+                        <br></br>
+
+                        <textarea class="form-control " id="exampleFormControlTextarea4" placeholder="Mensagem" rows="2"></textarea>
                     </div>
                 </form>
             </div>
             <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-dismiss="modal">Feche, vamos falar depois!</button>
                 <button type="button" class="btn btn-primary">Enviar</button>
             </div>
         </div>

@@ -8,12 +8,19 @@
 }
 
 .fonte-titulo {
-    font-family: 'Lobster', cursive;
+    font-family: 'Satisfy', cursive;
+    font-size: 66px;
+    margin-left: 20px;
 }
 
-.cor-especial {
-    font-family: 'Lobster', cursive;
-    color: green;
+.fonte-titulo2 {
+    font-size: 36px;
+    margin-left: 450px;
+}
+
+.fonte-titulo3 {
+    font-family: 'Satisfy', cursive;
+    font-size: 36px;
 }
 
 .botao-cor-especial {
@@ -32,4 +39,8 @@
 .card-posicao-imagem {
     object-fit: cover;
     height: 500px;
+}
+
+.margin-top-150 {
+    margin-top: 150px;
 }
