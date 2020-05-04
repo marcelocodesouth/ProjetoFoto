@@ -10,7 +10,7 @@
 }
 
 .fonte-titulo2 {
-    font-size: 26px;
+    font-size: 18px;
     text-align: center;
 }
 
@@ -20,8 +20,9 @@
     text-align: center;
 }
 
-.fonte-navbar {
-    font-size: 30px;
+.nav-item {
+    font-size: 25px;
+    margin: 0 100px;
 }
 
 .botao-cor-especial {
