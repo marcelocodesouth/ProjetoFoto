@@ -3,24 +3,25 @@
     height: 400px;
 }
 
-.titulo {
-    color: red;
-}
-
 .fonte-titulo {
     font-family: 'Satisfy', cursive;
-    font-size: 66px;
-    margin-left: 20px;
+    font-size: 46px;
+    text-align: center;
 }
 
 .fonte-titulo2 {
-    font-size: 36px;
-    margin-left: 450px;
+    font-size: 26px;
+    text-align: center;
 }
 
 .fonte-titulo3 {
     font-family: 'Satisfy', cursive;
-    font-size: 36px;
+    font-size: 26px;
+    text-align: center;
+}
+
+.fonte-navbar {
+    font-size: 30px;
 }
 
 .botao-cor-especial {
