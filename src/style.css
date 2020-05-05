@@ -1,8 +1,3 @@
-.imagem-carrossel {
-    object-fit: cover;
-    height: 400px;
-}
-
 .fonte-titulo {
     font-family: 'Satisfy', cursive;
     font-size: 46px;
@@ -23,6 +18,11 @@
 .nav-item {
     font-size: 25px;
     margin: 0 100px;
+}
+
+.imagem-carrossel {
+    object-fit: cover;
+    height: 500px;
 }
 
 .botao-cor-especial {
