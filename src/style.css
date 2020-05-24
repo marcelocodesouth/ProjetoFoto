@@ -52,3 +52,9 @@
 .margin-top-150 {
     margin-top: 150px;
 }
+
+.img {
+    border: 0pt none;
+    float: left;
+    padding-right: 10px;
+}
